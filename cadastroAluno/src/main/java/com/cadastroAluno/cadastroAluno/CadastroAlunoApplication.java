@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroAlunoApplication {
+public class CadastroAlunoApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(VeiculoApiApplication.class, args);
