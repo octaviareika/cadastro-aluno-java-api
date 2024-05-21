@@ -7,7 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CadastroAlunoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadastroAlunoApplication.class, args);
+		SpringApplication.run(VeiculoApiApplication.class, args);
+	}
+
+	public void run(String... args) throws IOException, InterruptedException {
+		System.out.println("Hello, Spring Boot!");
+		// Principal principal = new Principal();
+		// principal.exibeMenu();
+
 	}
 
 }
